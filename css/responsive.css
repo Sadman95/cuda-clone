@@ -1,0 +1,775 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.social li:hover i {
+    background-color: #0e90ec;
+    color: #fff;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+/* Ultra small devices(phones) */
+@media only screen and (max-width: 488px) {
+    #arrow {
+        font-size: 30px;
+    }
+
+    .portfolio ul li {
+        font-size: 11px;
+        font-weight: bold;
+        margin-right: -10px !important;
+        padding: 5px 10px;
+    }
+
+    .mix_images img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .footer ul li a {
+        font-size: 11px !important;
+        font-weight: 500 !important;
+    }
+
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* header start */
+    #arrow {
+        font-size: 40px;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+        position: absolute;
+
+        top: 100%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    nav li a {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 20px;
+    }
+
+    nav ul {
+        float: right;
+        margin-right: 0px;
+
+    }
+
+    .dropdown-toggle {
+        position: absolute;
+        display: block;
+        top: -50px;
+        left: -100px;
+        color: #fff;
+    }
+
+    .cross {
+        position: absolute;
+        display: none;
+        top: -42px;
+        left: -85px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        display: none;
+        top: 0%;
+        left: -150px;
+    }
+
+    #check {
+        display: none;
+        width: 20px;
+
+    }
+
+    #check:checked~.dropdown-toggle {
+        display: none;
+    }
+
+    #check:checked~.cross {
+        display: block;
+    }
+
+    #check:checked~.dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-menu a {
+        color: #fdfcfd;
+    }
+
+    .head_txt h1 {
+        font-size: 18pt;
+        font-weight: 400;
+        padding: 100px 25px;
+    }
+
+    p a {
+        padding: 12px 24px;
+    }
+
+    p a:hover {
+        padding: 12px 24px;
+    }
+
+    /* header end */
+
+    /* service start */
+    .title {
+        font-size: 25pt;
+    }
+
+    .serv-head p {
+        padding: 0 50px;
+    }
+
+    .serv-cont-col {
+        width: 100%;
+        margin: auto;
+    }
+
+    .serv-cont p {
+        padding: 0px 100px;
+    }
+
+    /* service end */
+
+
+    /* team start */
+    .teamcol-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .team-head p {
+        padding: 0 80px;
+    }
+
+    .social li i {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    /* team end */
+
+    /* skills start */
+    .skills_text {
+        padding: 0 75px;
+    }
+
+    .skills_cont {
+        margin-top: 50px;
+    }
+
+    .skills_cont_1 {
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+        color: #3C4761;
+    }
+
+    .col_2,
+    .col_3 {
+        margin: auto;
+    }
+
+    /* skills end */
+
+    /* portfolio start */
+    .div {
+        width: 20%;
+    }
+
+    .portfolio ul li {
+        margin-left: 18px;
+        margin-right: 0px;
+    }
+
+    .more {
+        padding: 18px 25px;
+    }
+
+    /* portfolio end */
+
+    /* reaction start */
+    .react_text h1 {
+        font-size: 30px;
+    }
+
+    .des_col {
+        width: 100% !important;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .des img {
+        height: 120px;
+        width: 120px;
+        display: block;
+        margin: auto;
+    }
+
+    .des_col p {
+        padding: 0 50px !important;
+
+    }
+
+    .des_col p,
+    .des_col h3 {
+        width: 100% !important;
+
+    }
+
+    /* reaction end */
+
+    /* contact start */
+    .form {
+        width: 100% !important;
+    }
+
+    input,
+    textarea {
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+        resize: none;
+    }
+
+    .form a {
+        padding: 20px 40px;
+    }
+
+    /* contact end */
+
+    /* footer start */
+    .footer ul li {
+        padding: 50px 6px;
+    }
+
+    .footer ul li a {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* footer end */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+
+    /* header start */
+    #arrow {
+        font-size: 50px;
+    }
+
+    .navbar-brand {
+        display: block;
+        margin: auto;
+    }
+
+
+    .nav li a {
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 10px 12px;
+    }
+
+    .nav a:hover {
+        background-color: indigo;
+    }
+
+
+    input[type='checkbox'] {
+        display: none;
+    }
+
+    .dropdown label {
+        display: none;
+
+    }
+
+    .nav {
+        margin: auto;
+    }
+
+    .nav ul {
+        display: table;
+    }
+
+    .nav ul li {
+        float: left;
+    }
+
+    .nav a {
+        color: #fdfcfd;
+    }
+
+    .dropdown-menu {
+        display: none !important;
+
+    }
+
+    .head_txt h1 {
+        font-size: 18pt;
+        font-weight: 400;
+        padding: 100px 25px;
+    }
+
+    p a {
+        padding: 15px 30px;
+    }
+
+    p a:hover {
+        padding: 15px 30px;
+    }
+
+    /* header end */
+
+    /* service start */
+    .title {
+        font-size: 25pt;
+    }
+
+    .serv-head p {
+        padding: 0 50px;
+    }
+
+    .serv-cont-col {
+        width: 100%;
+        margin: auto;
+    }
+
+    .serv-cont p {
+        padding: 0px 100px;
+        font-weight: 600;
+    }
+
+    /* service end */
+
+    /* team start */
+    .teamcol-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .teamcol-1 p {
+        font-weight: 600;
+    }
+
+    .team-head p {
+        padding: 0 80px;
+    }
+
+    .social li i {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    /* team end */
+
+    /* skills start */
+    .skills_text {
+        padding: 0 75px;
+    }
+
+    .skills_cont {
+        margin-top: 50px;
+    }
+
+    .skills_cont_1 {
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+        color: #3C4761;
+    }
+
+    .col_2,
+    .col_3 {
+        margin: auto;
+    }
+
+    /* skills end */
+
+    /* portfolio start */
+    .div {
+        width: 25%;
+    }
+
+    .portfolio ul li {
+        margin-left: 18px;
+        margin-right: 0px;
+    }
+
+    .more {
+        padding: 18px 25px;
+    }
+
+    /* portfolio end */
+
+    /* reaction start */
+    .react_text h1 {
+        font-size: 30px;
+    }
+
+    .des_col {
+        width: 100% !important;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .des img {
+        height: 120px;
+        width: 120px;
+        display: block;
+        margin: auto;
+    }
+
+    .des_col p {
+        padding: 0 50px !important;
+
+    }
+
+    .des_col p,
+    .des_col h3 {
+        width: 100% !important;
+
+    }
+
+    /* reaction end */
+
+    /* contact start */
+    .form {
+        width: 100% !important;
+    }
+
+    input,
+    textarea {
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+        resize: none;
+    }
+
+    .form a {
+        padding: 20px 40px;
+    }
+
+    /* contact end */
+
+    /* footer start */
+    .footer ul li {
+        padding: 50px 7px;
+    }
+
+    .footer ul li a {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    /* footer end */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* header start */
+
+    .navbar-brand {
+        display: block;
+        margin: 30px auto;
+    }
+
+    nav ul {
+        display: table !important;
+        margin: auto;
+    }
+
+    .nav-link {
+        font-size: 16px !important;
+    }
+
+
+
+
+
+    input[type='checkbox'] {
+        display: none;
+    }
+
+    .dropdown label {
+        display: none;
+
+    }
+
+
+
+    .dropdown-menu a {
+        color: #fdfcfd;
+    }
+
+    .head_txt h1 {
+        font-size: 18pt;
+        font-weight: 400;
+        padding: 100px 25px;
+    }
+
+    p a {
+        padding: 18px 36px;
+    }
+
+    p a:hover {
+        padding: 18px 36px;
+
+    }
+
+    /* header end */
+
+    /* service start */
+    .title {
+        font-size: 25pt;
+    }
+
+    .serv-head p {
+        padding: 0 50px;
+    }
+
+    .serv-cont-col {
+        width: 60%;
+        margin: 15px auto;
+        padding: 15px 0;
+        float: none;
+    }
+
+    .serv-cont p {
+        padding: 0px 20px;
+        font-weight: 600;
+    }
+
+    /* service end */
+
+    /* team start */
+
+
+    .teamcol img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .teamcol-1 {
+        width: 24%;
+        text-align: center;
+        float: left;
+    }
+
+    .teamcol-1 h3 {
+        font-size: 30px;
+    }
+
+    .teamcol-1 span {
+        font-size: 18px;
+    }
+
+    .teamcol-1 p {
+        padding: 0 100px;
+        font-weight: 500;
+    }
+
+    .team-head p {
+        padding: 0 20px;
+    }
+
+    .social li {
+        margin: 0px;
+    }
+
+    .social li i {
+        width: 45px;
+        height: 45px;
+        font-size: 25px;
+    }
+
+    /* team end */
+
+    /* portfolio start */
+    .div {
+        width: 18%;
+    }
+
+    /* portfolio end */
+
+    /* reaction start */
+    .des_col {
+        width: 50% !important;
+    }
+
+    /* reaction end  */
+
+    /* footer start */
+    .footer ul li {
+        padding: 50px 11px;
+    }
+
+    .footer ul li a {
+        font-size: 22px;
+    }
+
+    /* footer end */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* header start */
+    nav img {
+        display: inline;
+        margin: 0;
+    }
+
+    nav ul {
+        display: inline;
+        margin: 6px auto;
+        float: right;
+    }
+
+    .nav-link {
+        font-size: 18px !important;
+    }
+
+    .head_txt h1 {
+        font-size: 30px;
+        font-weight: 400;
+        padding: 100px 190px;
+    }
+
+    p a {
+        padding: 20px 40px;
+        font-size: 22px;
+    }
+
+    p a:hover {
+        padding: 20px 40px;
+    }
+
+    /* header end */
+
+    /* service start */
+    .serv-cont p {
+        padding: 0px 240px;
+        font-size: 20px;
+    }
+
+
+
+    /* service end */
+
+    /* team start */
+    .teamcol img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .teamcol-1 h3 {
+        font-size: 30px;
+    }
+
+    .des_col {
+        width: 40% !important;
+    }
+
+    .des div:nth-child(2),
+    .des div:nth-child(4) {
+        float: right;
+    }
+
+    .des_col img {
+        float: left;
+        height: 100px;
+        width: 100px;
+    }
+
+    .des_col p:nth-child(2) {
+        display: contents;
+    }
+
+    /* team end */
+
+    /* skills start */
+    .skills .container {
+        width: 100%;
+    }
+
+    .skills_cont {
+        width: 100%;
+    }
+
+    .skills_cont_1 {
+        width: 25%;
+    }
+
+    /* skills end */
+
+    /* react start */
+    /* .des_col{
+            width: 25% !important;
+            
+        } */
+    /* react end */
+
+    /* footer start */
+    .footer ul li {
+        padding: 50px 28px;
+    }
+
+    /* footer end */
+}
